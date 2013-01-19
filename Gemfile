@@ -8,7 +8,7 @@ gem 'jquery-rails'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :production do
-  gem 'mysql2'
+  gem 'pg'
 end
 
 group :development, :test do
